@@ -1,0 +1,8 @@
+### Create Doc Category
+POST https://apicrm.alif.tj/api/v0/docs/get-generated-doc
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpY3JtLmFsaWYudGpcL2FwaVwvdjBcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNTg0MjU4NzA4LCJleHAiOjE1ODQyNzY3MDgsIm5iZiI6MTU4NDI1ODcwOCwianRpIjoiNFZ3ZnNOUkRlMEdoMlZrTSIsInN1YiI6NDU5LCJwcnYiOiIwMGJlYzAxMGMxM2IwMTg2NTQwZWE5NmIyN2MxZGMxMDhiNThkMjQwIn0.Y4dblyFmslId8CQ8kno6kMv0MaKSn-3jhrBYbk8T2n8
+
+doc_version_id=1&client_id=115078&contract_number=48528
+###

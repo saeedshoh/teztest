@@ -1,0 +1,90 @@
+{
+    "fields": [
+        {
+            "name": "client_id",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "city_id",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "order_status_id",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "delivery_agency_id",
+            "type": "integer#unsigned"
+        },
+        {
+            "name": "delivery_date",
+            "type": "string"
+        },
+        {
+            "name": "phone_number_delivery",
+            "type": "string"
+        },
+        {
+            "name": "address",
+            "type": "string"
+        },
+        {
+            "name": "email",
+            "type": "string"
+        },
+        {
+            "name": "comment",
+            "type": "text"
+        }
+    ],
+    "foreign_keys": [
+        {
+            "column": "client_id",
+            "references": "id",
+            "on": "clients"
+        },
+        {
+            "column": "city_id",
+            "references": "id",
+            "on": "cities"
+        },
+        {
+            "column": "order_status_id",
+            "references": "id",
+            "on": "order_statuses"
+        },
+        {
+            "column": "delivery_agency_id",
+            "references": "id",
+            "on": "delivery_agencies"
+        }
+    ],
+    "relationships": [
+        {
+            "name": "city",
+            "type": "belongsTo",
+            "class": "App\\Modules\\Common\\Models\\City"
+        },
+        {
+            "name": "client",
+            "type": "belongsTo",
+            "class": "App\\Modules\\Auth\\Models\\Client"
+        },
+        {
+            "name": "order_status",
+            "type": "belongsTo",
+            "class": "App\\Modules\\Orders\\Models\\OrderStatus"
+        },
+        {
+            "name": "delivery_agency",
+            "type": "belongsTo",
+            "class": "App\\Modules\\Orders\\Models\\DeliveryAgency"
+        }
+    ],
+    "validations": [
+        {
+            "field": "client_id",
+            "rules": "required|max:10"
+        }
+    ]
+}

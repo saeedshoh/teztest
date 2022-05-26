@@ -1,0 +1,48 @@
+body[data-sidebar=colored] .vertical-menu {
+    background-color: #831dbf !important;
+}
+
+body[data-sidebar=colored] .navbar-brand-box {
+    background-color: #831dbf !important;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #831dbf !important;
+    border-color: #831dbf !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #831dbf !important;
+    border-color: #831dbf !important;
+}
+
+.avatar-title {
+    background-color: #831dbf !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #831dbf !important;
+    border-color: #831dbf !important;
+}
+
+
+.text-primary {
+    color: #831dbf !important;
+}
+
+.mm-active .active i {
+    color: #831dbf !important;
+}
+
+a {
+    color: #831dbf;
+    text-decoration: none;
+    background-color: #0000;
+}
+a:hover {
+    color: #4d0777;
+}
+.checkout-tabs .nav-pills .nav-link.active {
+    background-color: #831dbf;
+}
